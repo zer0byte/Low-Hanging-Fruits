@@ -12,15 +12,19 @@ SQLI Injections
 RFI/LFI
 Apache Tomcat
 WPSscan
+CMS-SCAN
+nikto
+Dirb
+Droopescan
 adobe Cold Fusion
 Elastic Search - port 9200
-Dirb
 default credentials
 JBOSS
 Dell DRAC - 
 HTTP PUT Method
 Webdav
 phpliteadmin.php  - admin
+phpmyadmin
 hp_power_manager_filename
 CSV 
 XXE
@@ -31,3 +35,4 @@ FTP - read/write
 MSSQL with weak credentials
 MYSQL with Weak Credntials
 Samba trans2open Overflow 
+VNC - No credentials required.
