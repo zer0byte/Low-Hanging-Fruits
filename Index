@@ -1,8 +1,9 @@
 ====================[Windows]=================
+MS05_039
 MS08_067
+MS15-034
 LLMNR
 EternalBlues
-MSSQL
 ====================[Web]=================
 CGI-Shellshock
 SQLI Injections
@@ -18,3 +19,5 @@ Dell DRAC -
 ====================[Services]=================
 FTP - Anonymous Login
 FTP - read/write
+MSSQL with weak credentials
+MYSQL with Weak Credntials
