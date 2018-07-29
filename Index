@@ -1,6 +1,8 @@
 ====================[Windows]=================
+MS03_026
 MS05_039
 MS08_067
+ms09_050_smb2_negotiate_func_index
 MS15-034
 LLMNR
 EternalBlues
@@ -16,8 +18,16 @@ Dirb
 default credentials
 JBOSS
 Dell DRAC - 
+HTTP PUT Method
+Webdav
+phpliteadmin.php  - admin
+hp_power_manager_filename
+CSV 
+XXE
+File Upload Vulnerabilities
 ====================[Services]=================
 FTP - Anonymous Login
 FTP - read/write
 MSSQL with weak credentials
 MYSQL with Weak Credntials
+Samba trans2open Overflow 
