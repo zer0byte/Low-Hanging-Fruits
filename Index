@@ -45,3 +45,6 @@ MSSQL with weak credentials
 MYSQL with Weak Credntials
 Samba trans2open Overflow 
 VNC - No credentials required.
+Sparta
+RAPS
+IKE-SCAN - Aggressive mode - Extract PSK - Bruteforce for the wins
