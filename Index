@@ -38,6 +38,7 @@ hp_power_manager_filename
 CSV 
 XXE
 File Upload Vulnerabilities
+SSL Digger
 ====================[Services]=================
 FTP - Anonymous Login
 FTP - read/write
