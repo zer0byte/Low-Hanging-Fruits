@@ -16,6 +16,7 @@ EternalBlues
 smb-double-pulsar-backdoor
 smb-vuln-conficker
 ====================[Web]=================
+JAVA Remote Method Invocation (RMI)
 CGI-Shellshock
 SQLI Injections
 RFI/LFI
