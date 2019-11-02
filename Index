@@ -21,7 +21,7 @@ CGI-Shellshock
 SQLI Injections
 RFI/LFI
 Apache Tomcat - WAR Upload
-Apache Tomcat JSP upload - https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_jsp_upload_bypass
+Apache Tomcat JSP upload - https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_jsp_upload_bypass ; https://www.peew.pw/blog/2017/10/9/new-vulnerability-same-old-tomcat-cve-2017-12615 
 WPSscan
 CMS-SCAN
 nikto
