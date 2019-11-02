@@ -20,7 +20,8 @@ JAVA Remote Method Invocation (RMI)
 CGI-Shellshock
 SQLI Injections
 RFI/LFI
-Apache Tomcat
+Apache Tomcat - WAR Upload
+Apache Tomcat JSP upload - https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_jsp_upload_bypass
 WPSscan
 CMS-SCAN
 nikto
