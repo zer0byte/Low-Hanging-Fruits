@@ -1,4 +1,21 @@
 ====================[Windows]=================
+Enumeration:
+= nmap -p 445 
+= nbtscan
+Manual Browsing - SMB Shares should be enumerated manually whenever possible.
+smbclient -L INSERTIPADDRESS
+smbclient //INSERTIPADDRESS/tmp
+smbclient \\INSERTIPADDRESS\ipc$ -U john
+smbclient //INSERTIPADDRESS/ipc$ -U john
+smbclient //INSERTIPADDRESS/admin$ -U john
+winexe -U username //INSERTIPADDRESS "cmd.exe" --system
+nmap -p[PORT] --script=smb-enum-shares 192.168.1.0/24 -vvvvv
+nmap -sV -Pn -vv -p 445 --script=smb-vuln* --script-args=unsafe=1 192.168.1.0/24
+smbscan
+smb null session: bash -c "echo 'srvinfo' | rpcclient 192.168.1.2 -U%"
+https://pen-testing.sans.org/blog/2013/07/24/plundering-windows-account-info-via-authenticated-smb-sessions
+
+
 1 ===[MS03_026]===
 Date: July 16, 2003
 Affected Software:
