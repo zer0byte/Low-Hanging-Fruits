@@ -1,6 +1,27 @@
 ====================[Windows]=================
-MS03_026
-MS05_039
+1 ===[MS03_026]===
+Date: July 16, 2003
+Affected Software:
+= Microsoft Windows NT® 4.0
+= Microsoft Windows NT 4.0 Terminal Services Edition
+= Microsoft Windows 2000
+= Microsoft Windows XP
+= Microsoft Windows Server™ 2003
+Metasploit: MS03-026 Microsoft RPC DCOM Interface Overflow
+Nmap: Pending
+
+2 ===[MS05_039]===
+Date: August 09, 2005
+Affected Software:
+= Microsoft Windows 2000 Service Pack 4
+= Microsoft Windows XP Service Pack 1 and Microsoft Windows XP Service Pack 2
+= Microsoft Windows XP Professional x64 Edition
+= Microsoft Windows Server 2003 and Microsoft Windows Server 2003 Service Pack 1
+= Microsoft Windows Server 2003 for Itanium-based Systems and Microsoft Windows Server 2003 with SP1 for Itanium-based Systems
+= Microsoft Windows Server 2003 x64 Edition
+Metasploit: MS05-039 Microsoft Plug and Play Service Overflow
+
+
 ms06-025
 smb-vuln-ms07-029
 MS08_067
