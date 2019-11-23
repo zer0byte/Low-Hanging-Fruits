@@ -13,6 +13,7 @@ nmap -p[PORT] --script=smb-enum-shares 192.168.1.0/24 -vvvvv
 nmap -sV -Pn -vv -p 445 --script=smb-vuln* --script-args=unsafe=1 192.168.1.0/24
 smbscan
 smb null session: bash -c "echo 'srvinfo' | rpcclient 192.168.1.2 -U%"
+smbmap -H 127.0.0.1
 https://pen-testing.sans.org/blog/2013/07/24/plundering-windows-account-info-via-authenticated-smb-sessions
 
 
