@@ -102,3 +102,12 @@ VNC - No credentials required.
 Sparta
 RAPS
 IKE-SCAN - Aggressive mode - Extract PSK - Bruteforce for the wins
+
+2 ===[4786 -Cisco Smart Install]===
+Enumeration:
+= nmap -sV -sC -p 4786 --open 192.168.1.0.24
+Exploitation:
+= Smart Install Exploitation Tool
+== https://github.com/Sab0tag3d/SIET
+
+
