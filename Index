@@ -109,5 +109,14 @@ Enumeration:
 Exploitation:
 = Smart Install Exploitation Tool
 == https://github.com/Sab0tag3d/SIET
+== https://github.com/ChristianPapathanasiou/CiscoSmartInstallExploit/blob/master/cisco.py
+== https://github.com/axcheron/cisco_pwdecrypt
+== https://medium.com/@bondo.mike/cisco-smart-install-rce-d0cb58e752c0
+
+
+3 ===[4786 -Redis Server]===
+Install Redis Clis on Kali
+= apt-get install redis-tools
+
 
 
