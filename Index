@@ -69,7 +69,7 @@ Droopescan
 adobe Cold Fusion
 Elastic Search - port 9200
 default credentials
-JBOSS
+JBOSS -jexboss
 Jenkins
 Dell DRAC - 
 HTTP PUT Method
@@ -114,7 +114,7 @@ Exploitation:
 == https://medium.com/@bondo.mike/cisco-smart-install-rce-d0cb58e752c0
 
 
-3 ===[4786 -Redis Server]===
+3 ===[NA -Redis Server]===
 Install Redis Clis on Kali
 = apt-get install redis-tools
 
