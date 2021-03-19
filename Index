@@ -118,5 +118,9 @@ Exploitation:
 Install Redis Clis on Kali
 = apt-get install redis-tools
 
+4 ===[Attacking Docker exposed API]
+reffer something 
+
+https://medium.com/@riccardo.ancarani94/attacking-docker-exposed-api-3e01ffc3c124
 
 
